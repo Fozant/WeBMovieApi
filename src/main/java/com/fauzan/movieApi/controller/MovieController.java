@@ -26,6 +26,6 @@
         }
 
 
-        // @GetMapping("/{id}")
-        // public ResponseEntity<Movie> getSingleMovie(@PathVariable )
+        @GetMapping("/{id}")
+        public ResponseEntity<Movie> getSingleMovie(@PathVariable )
     }
