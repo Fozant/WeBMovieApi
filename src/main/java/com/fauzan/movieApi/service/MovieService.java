@@ -1,6 +1,8 @@
 package com.fauzan.movieApi.service;
 
 import java.util.List;
+import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -19,7 +21,7 @@ public class MovieService {
 
    
 
-    // public Optional<Movie> findMovieByImdbId(String imdbId) {
-        // return repo.findMovieByImdbId(imdbId);
-    // }
+    public Optional<Movie> findMovieByImdbId(String imdbId) {
+        return repo.findMovieByImdbId(imdbId);
+    }
 }

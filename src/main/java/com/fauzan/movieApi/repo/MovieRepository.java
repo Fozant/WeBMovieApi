@@ -9,6 +9,6 @@ import com.fauzan.movieApi.model.*;
 
 @Repository
 public interface MovieRepository extends JpaRepository<Movie,Long> {
-    Optional <Movie> findMovieByImdbId(String imdb_id);
+    Optional <Movie> findMovieByImdbId(String imdbId);
 }
 
